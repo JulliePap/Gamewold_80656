@@ -1,0 +1,109 @@
+body {
+	background-image: url("../images/destiny.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+form {
+	background: #333;
+  color: white;
+  display: block; 
+  float: none;
+  overflow: hidden;
+  padding: 20px 0 20px 25px;
+  width: 15%;
+  margin: 0 auto;
+  margin-top: 120px;
+}
+a {
+	text-decoration: none;
+}
+header {
+	width:70%;
+	margin: 0 auto;
+	display: flex;
+	background-color: #333;
+    border-radius: 20px;
+}
+
+div.items {
+	flex-grow: 1;
+}
+
+div.info {
+	min-width: 100px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border-radius: 20px;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+#footer {
+  color: white;
+  background-color: #333;
+  height: 50px;
+  width: 1000px;
+  text-align: center;
+  background-color: #333;
+  border-radius: 20px;
+  position: absolute;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%);
+  margin-top: 20px;
+  bottom: 0%;
+ }
+#main-container {
+	width: 65%;
+	height: 20px;
+	left: 17.5%;
+	margin: 0 auto;
+	margin-top: 30px;
+	display: flex;
+	justify-content: space-between;
+}
+#main-textbox {
+	width: 65%;
+	height: 50px;
+	margin-left: 15%;
+	margin-top: 10px;
+	text-align: center;
+}
+.contact {
+	color: white;
+	font-size: 33px;
+	margin-top: 10px;
+	margin-left: 10px;
+	font-weight: bold;
+	font-family: Century Gothic, sans-serif; 
+}
+.welcome p {
+	font-size: 18px;
+}
+.form label {
+  display: inline-block;
+  text-align: right;
+  margin-left: 2%;
+  top: 0%;
+  width: 18%;
+  color: #333;
+}
+/* END CONTACT.CSS */
